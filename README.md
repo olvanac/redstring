@@ -1,21 +1,37 @@
 # Red String
+Red String é uma loja virtual [fictícia] de bordados artesanais feitos à mão.
 
+## Sprint 01 - 16 e 17 de julho 
+### Página principal
+|Atividade|Pontuação|
+|---------|---------|
+| Montar catálogo | 2 |
+|Adicionar fotos dos produtos | 3 |
 
-## Página principal
-Montar catálogo
-Adicionar fotos dos produtos
+## Sprint 02 - 18 e 19 de julho
+### Filtro
 
-## Filtro
-Categorizar produtos
-Criar página para categorias
-Adicionar filtros nas páginas
+|Atividade|Pontuação|
+|---------|---------|
+| Categorizar produtos | 3 |
+| Criar página para categorias | 5 |
+| Adicionar filtros nas páginas | 8 |
 
-## Página do produto
-Adicionar fotos extras
-Descrever produtos
-Adicionar preços
-Adicionar meios de pagamentos (mock)
+## Sprint 03 - 20 e 21 de julho
+### Página do produto
 
-## Página institucional
-Criar botão "Quem Somos"
-Criar página de informações institucionais
+|Atividade|Pontuação|
+|---------|---------|
+| Adicionar fotos extras | 3 |
+| Descrever produtos | 1 |
+| Adicionar preços | 1 |
+| Adicionar meios de pagamentos (mock) | 5 |
+
+## Sprint 04 - 22 e 23 de julho
+### Página institucional
+
+|Atividade|Pontuação|
+|---------|---------|
+| Criar botão "Quem Somos" | 13 |
+| Criar página de informações institucionais | 5 |
+

@@ -8,15 +8,16 @@
     <title>RED STRING</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
-
+    <script src="https://kit.fontawesome.com/14124053ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="./style-rs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="./style-rs.css"/>
 </head>
 
 
@@ -25,7 +26,7 @@
     <header>
 
         <h1 id="titulo-page" class="container">
-            <a href="red-string1.html" title="HOME" alt="Página Inicial">
+            <a href="index.html" title="HOME" alt="Página Inicial">
                 RED STRING
             </a>
 
@@ -60,9 +61,57 @@
         </nav>
     </header>
 
+
+    <div class="row container">
+        <div class="fotos col-12 col-md-6">
+        <div class="carrossel">
+            <img src="img/tela.jpeg" alt="foto 1" class="">
+            <img src="img/tela.jpeg" alt="foto 1" class="">
+            <img src="img/tela.jpeg" alt="foto 1" class="">
+            <img src="img/tela.jpeg" alt="foto 1" class="">
+            <img src="img/tela.jpeg" alt="foto 1" class="">
+        </div>
+        </div>
+
+
+
+        <div class="fotos col-12 col-md-6">
+
+            <h2> Tela Acrílica com Bordado</h2>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nisi est eos officiis, mollitia
+                sint quisquam ut neque architecto ipsa quaerat, deleniti explicabo quae adipisci molestiae. Esse aut
+                magnam dolore.</h5>
+            <h4>R$ 40,00</h4>
+
+            <ul id="formas-pagamento">
+                <li>
+                    <input type="radio" name="pagamento" value="boleto" />
+                    <i class="fa fa-receipt pag-icon"></i>Boleto
+                </li>
+                <li>
+                    <input type="radio" name="pagamento" value="credit" />
+                    <i class="fas fa-credit-card pag-icon"></i>Cartão de Crédito
+                </li>
+                <li>
+                    <input type="radio" name="pagamento" value="paypal" />
+                    <i class="fab fa-paypal pag-icon"></i>Paypal
+                </li>
+
+            </ul>
+
+            <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            $(".carrossel").slick({ dots: true })
+        })
+    </script>
 </body>
 
 </html>

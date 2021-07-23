@@ -1,3 +1,6 @@
+/*estilização padrão de todas as páginas*/
+
+
 body {
     background-color: #F6F5F5;
     font-family: 'Montserrat', sans-serif;
@@ -5,7 +8,7 @@ body {
 
 header {
     background-color: #D3E0EA;
-    background-image: url(./fundo-header.png);
+    background-image: url(./img/fundo-header.png);
     background-position-y: -35px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -25,6 +28,25 @@ header {
     color: #276678;
     text-decoration: none;
 }
+
+#barra-nav {
+    margin: auto;
+}
+
+.container-fluid {
+    border: #276678 solid 2px;
+    padding: 0px;
+}
+
+.nav-item{
+    padding: 0 50px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+/* Estilização da vitrine*/
 
 .produto {
     padding-top: 15px;
@@ -50,21 +72,70 @@ header {
     color: #1687A7;
 }
 
-#barra-nav {
-    margin: auto;
+
+
+/* estilização da página do produto */
+
+.fotos {
+    padding-top: 30px;
 }
 
-.container-fluid {
-    border: #276678 solid 2px;
-    padding: 0px;
+.fotos h2 , .fotos h5 {
+    color: #276678;
 }
 
-.nav-item{
-    padding: 0 50px;
+.fotos h4 {
+    color: #1687A7;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
-.navbar {
-    padding: 0;
+#formas-pagamento {
+    list-style: none;
+    padding-left: 0;
+
 }
+
+.pag-icon {
+    width: 30px;
+    text-align: center;
+    font-size: 125%;
+    color: #276678;
+}
+
+button {
+    padding-top: 30px ;
+}
+
+.btn-primary , .btn-primary:hover , .btn-primary:active, .btn-primary:focus {
+    background-color: #276678;
+    color: #F6F5F5;
+}
+
+li {
+    color: #1687A7;
+}
+
+/* estilização institucional*/
+
+.container-infos {
+    text-align: center;
+}
+
+.inst {
+    color: #276678;
+}
+
+.infos {
+    color: #1687A7;
+    font-size: 105%;
+}
+
+.contato {
+    color: #1687A7;
+    font-size: 80%;
+}
+
+
 /*.class #id e tag é tag*/
 /* cor vermelha: F02411*/

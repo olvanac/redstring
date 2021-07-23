@@ -4,6 +4,7 @@
 body {
     background-color: #F6F5F5;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
 }
 
 header {
@@ -35,6 +36,8 @@ header {
 
 .container-fluid {
     border: #276678 solid 2px;
+    border-left: none;
+    border-right: none;
     padding: 0px;
 }
 
@@ -134,6 +137,19 @@ li {
 .contato {
     color: #1687A7;
     font-size: 80%;
+    margin: 5px;
+}
+
+.inst-img{
+    padding: 4px;
+    border: #276678 solid 2px;
+    margin: 5px;
+}
+
+/* estilização paginas de filtros*/
+
+#roupas , #decor {
+    color: #276678;
 }
 
 
